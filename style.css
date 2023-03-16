@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Spectral:wght@500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-osx-font-smoothing: grayscale;
+}
+
+body {
+    background: url(./img/background-image.jpg) no-repeat center/cover;
+    height: 100vh;
+
+    font-family: 'Spectral', serif;
+    color: #EBF1FB;
+    text-align: center;
+
+    display: grid;
+    place-content: center;
+}
+
+h1 {
+    font-family: 'Beth Ellen', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 120px;
+}
+
+h1 > span {
+    color: #5EEAD4;
+}
+
+p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 4px;
+    margin-bottom: 72px;
+}
+
+a {
+    color: #EBF1FB;
+    padding: 16px 32px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #0B0C0E;
+    background: #5EEAD4;
+    border-radius: 50px;
+    text-decoration: underline;
+}
+.btn-recipes {
+    color: #0B0C0E;
+    background: #5EEAD4;
+    border-radius: 50px;
+}
+
+.btn-recipes:hover {
+    text-decoration: underline;
+}
