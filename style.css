@@ -52,13 +52,13 @@ a {
 a:hover{
     color: #0B0C0E;
     background: #5EEAD4;
-    border-radius: 50px;
+    border-radius: 15px;
     text-decoration: underline;
 }
 .btn-recipes {
     color: #0B0C0E;
     background: #5EEAD4;
-    border-radius: 50px;
+    border-radius: 15px;
 }
 
 .btn-recipes:hover {
